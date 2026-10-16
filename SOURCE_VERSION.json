@@ -1,0 +1,765 @@
+{
+  "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+  "source_tree": "fde3d5beca830215b2a4c4c5afa3d8c8c4b452ef",
+  "source_inventory_total_files": 1751,
+  "source_inventory_bytes": 44697005,
+  "scope": "Source-only disclosure candidate; not Native/G2/economic acceptance",
+  "exports": [
+    {
+      "path": "src/smlt_hedge/adaptive/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/adaptive/admission.py",
+      "sha256": "179d16c6649fe2e1b9d57c0ca9203257df81ac93c204d0bbb8ed621b78427f90",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/adaptive/derivative_units.py",
+      "sha256": "8259cf187e5deec1ab42a1581bf2d2a30d7882577818580c110287f2e616a776",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/adaptive/engine.py",
+      "sha256": "a6d78a37d6796b3a2a0c0c3e101df17a77c6bc1b02a08d1d4a64169d63b835f9",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/adaptive/events.py",
+      "sha256": "c72cd6c4f93ce4011f726c3a4297640fa97041ad01bb09fcf7f4f3a1088e9414",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/adaptive/evidence.py",
+      "sha256": "de58bf4054733a04c3d1a7dc09afa09659539a558473d10b1cbcf339db547a09",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/adaptive/figures.py",
+      "sha256": "6ad1b50cefa7e3243bd64ea851575773fc672f3e62d42df27a33622ef7586e42",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/adaptive/frontier.py",
+      "sha256": "c65b6f75dab38f0be04b220e635c0ea4d9c81a152dcde99b1a89ff478b617c74",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/adaptive/fx.py",
+      "sha256": "7c52ea8061d2ca1abd949fb944bfd87832c840412709853bf37bf708170c2612",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/adaptive/market.py",
+      "sha256": "96addb81bc72a41408fa2275024b3395a8431f469389c3708268f55170d2a8b9",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/adaptive/orders.py",
+      "sha256": "0ee210ad815429966a66a6d3c1a5a545381e271788828e3c7ec987cd49e65ad5",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/adaptive/policy.py",
+      "sha256": "afe91b105eda18d20c61606c590f2f0e5b4bf65396d71feac78f91c58b90aad9",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/adaptive/r1.py",
+      "sha256": "8fb190e81f7c51d037a6998a4bb305908b5e66cce83d2d300b53ed31b32c929f",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/adaptive/r2.py",
+      "sha256": "8c46d7da8930d8a56df924371f26ef2f0ff6f1ef5e83525a886d04a62bf9ef7e",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/adaptive/r3.py",
+      "sha256": "34865acdd31b0683c7361021158c0e6db23c255f81f8c079d96c48e77031c502",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/adaptive/r5.py",
+      "sha256": "e2bdcd6165c164c5654d80bdb3877bea941a86f8a0afbba9c407a4fdeaaa68bf",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/adaptive/r6.py",
+      "sha256": "6ea7c5d13f0d823f7e5dd132e33073e0544c37933b3c26369b29edca41f1a7ae",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/adaptive/replay.py",
+      "sha256": "7aaf33ebc9036b3ffa8b91c49dbb0720de2aefacd4c6952ecdce23aadef43ce6",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/adaptive/routes.py",
+      "sha256": "919d14d60a438507a36d5b8823168b117cbaccc2235387fad00ccd0baa95a921",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/adaptive/scenarios.py",
+      "sha256": "f899624e2e7db38019c11c0454f96491dcc65e2bb1b17616ba0d33fe62e05467",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/adaptive/semantics.py",
+      "sha256": "cb05aece48df650d2b19361921d18406c7ad65ed48c35e935c6465dac761388a",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/adaptive/stages.py",
+      "sha256": "448946c881e9eb210dd25cc8490f2243295539a7695cc7bf3ee0ac7df38a4c64",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/adaptive/state.py",
+      "sha256": "816eb2358a4f4c37e6bedead86dd77720b46b15468e9d2a81d7165307ff333dc",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/adaptive/stress.py",
+      "sha256": "4fd9ad312e8c1370a7e7bc777ddcce28bd8dc4417cf2ac54ba2dca1ec174c5f2",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/adaptive/views.py",
+      "sha256": "70d017d6dfb2b4fc1685cc5a08433eb7a31e82dde133266725983a279d3133f1",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/backtest/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/backtest/walk_forward.py",
+      "sha256": "5a6231c865ec26c07836aedf8718e75c8329ef7784ff21d087a879bdf34ae625",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/data/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/data/crypto.py",
+      "sha256": "f2be00e79d5ec093b52b4ec4f02f58cf9ea4cf63c195e25efdd218cae2b4bc8e",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/data/iss.py",
+      "sha256": "8dbb0d6658308b9858642fa9a28e983d132200d9147ce43d22c8cd911b750bc7",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/data/load.py",
+      "sha256": "5f17faf98704f0521b73105d65631eff83ff8550237364c2df7c867b4b563dcc",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/data/primary.py",
+      "sha256": "7844a9dca2b3b2ff9acea75c225a7a0c2a4a74b9fc54778f340eaa30da9f27c6",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/data/processed.py",
+      "sha256": "16298c3fa8b8011c98e701b8958db4de61d552cd913405053ade5ef30b7a9841",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/data/raw_store.py",
+      "sha256": "730da7be784e0a0c3be7fb0af4282e2b18fc01ea30b882110992996e4a981228",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/data/specs.py",
+      "sha256": "36970d13c45ba863fd0d27f53586ab5f309b195cdc7771019331835c4915450d",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/features/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/features/candidates.py",
+      "sha256": "274455c40691835e45aa5085fd8c3990e251fc2a1b4278ed8ba804116c086adb",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/features/factors.py",
+      "sha256": "fc4cc9247dd5b3dbcc062cb602ce2a302135c8ccae69d7c46dc67072f3adaf02",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/features/stats.py",
+      "sha256": "e72e29feec6320ebba9cc933fc0c82add2284890be8b2409e5c581d9829a0ae3",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/optimization/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/optimization/overlay.py",
+      "sha256": "90a3c20289990a055b12b6afc06884cc56d73db95f670cb515cf924978e3c9d5",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/phase2.py",
+      "sha256": "c104c24f7f7e9909cf2441169fcc0bf14a3555a5b107f880669ce4e3dfac5bb9",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/pif/__init__.py",
+      "sha256": "c497fbcb1a1c1555fa0387e48116780e4ebd8de2dd2701a9e02a2bd555f602f3",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/pif/core.py",
+      "sha256": "697c50e71c6c2d8636c1a72f39a6c55b4ed8cfe846d792aceea0480cc03002ea",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/pif/final.py",
+      "sha256": "9b4c9d3abaa7ed9ef92c8197311867bedf3d575a30b96ea20aa8504b91a13dc3",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/pif/fund.py",
+      "sha256": "d45d2c8284f0822747c53ac08b3c4fefe8e10e32195083341c6ac196e36f0a63",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/pif/optimize.py",
+      "sha256": "68719c6898b221d73a902acc03dfddc6d115df1cc9052607f1d4c938f0df4bd6",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/pif/stages.py",
+      "sha256": "77e8c6b08954bf28e7c93008e70a8ff6ed6d15787b9dce73eb6f3e26dd651d7d",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/pif/universe.py",
+      "sha256": "dc3face5f52cbd1bc41be27daf87a7e840613bca15ae6e82093bc36506c3a512",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/pipeline.py",
+      "sha256": "eba01d436d2acfd62d1ce1b43527c71b8bce54a3a867d10378f7d87ccd5e19c2",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/portfolio/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/portfolio/adaptive.py",
+      "sha256": "da4f1eceb100e3b9a85a62ebaf1566d31978ae85ddff3cb143933becfa076c48",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/portfolio/decision.py",
+      "sha256": "7a8ae2e063153866c02694eda8b6426b400da523b6db800831e0b28c913ecf85",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/portfolio/dynamic.py",
+      "sha256": "4ff71bbd92cc5e6e86d78648c67539c81570d825db8301773b2bbcacf2869e5d",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/portfolio/regime_risk.py",
+      "sha256": "a2966fe7debdb9bec358c374ccf3ac14c8925e52ca6830f0b92be92ddccb0bf6",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/portfolio/regimes.py",
+      "sha256": "1062ab88b01d8ed211022241faf8897f5a9829227eea2cffdcfe123173a604e8",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/portfolio/sleeves.py",
+      "sha256": "44f6a0a662a887d0cc3547f084c1dcc978fb83a2c12523aec2072d78d875a430",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/portfolio/smart.py",
+      "sha256": "4a22fd6b27ff2fca89df103915fbb809eacf9125bcab2cbc08ca6ecde4b86c0b",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/portfolio/validation.py",
+      "sha256": "209e76b145072ee50ce40436effb115465f3912a0e58323d67af4dd1fa2346df",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/regime_v2/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/regime_v2/a0_atomic_binding.py",
+      "sha256": "8ad9a657f1965e337ea8363de397a26638166646e30a66a7f39ae8540ad724bc",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/regime_v2/a0_input_authority.py",
+      "sha256": "cdea0fbb8289541f133acc83181922fc0052a0b5dc71a3c20b45560136ae3826",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/regime_v2/a0_native_book_choice_candidate.py",
+      "sha256": "4a1da772733dbcb61bde3f62b8fdff1cc2612cdc6b09a4deda11776c934ad216",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/regime_v2/a0_native_integration_candidate.py",
+      "sha256": "b4bf0639cc8ca956908b041f16cac659ac2ad4292fe67768b882710ff5cedfc0",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/regime_v2/a0_remaining_native_candidate.py",
+      "sha256": "39385a1aa14f085a6a308f6141d2d8477bc5387c9c62ac30e2975818a9e82076",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/regime_v2/a0_retained_inputs.py",
+      "sha256": "39bd245e8f5a63cbd19c08803d6377671f261ed75df60337900441494efabae6",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/regime_v2/a0_typed_constructor.py",
+      "sha256": "8a1d9239a11ef983afcc2a03ff7272178aa891f4d5369ffebb0e42127a4181c4",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/regime_v2/cfg.py",
+      "sha256": "1150272091df225b55674839f6ba93f7fdfc2af0ddcff90a8865ff0def8a3e33",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/regime_v2/checkpoints.py",
+      "sha256": "a13806473ac365e04a91f062e82bdc20f3cd47d057d50805b67616d5428aad80",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/regime_v2/clocks.py",
+      "sha256": "655ec940259865832a9dc545cc6aa61abc6854a080a232320322b46951082daa",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/regime_v2/curve.py",
+      "sha256": "b14fa597a46c84f02dd46cce24045b9d9151abf9ae5c874a7d4e983fefce9634",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/regime_v2/execution.py",
+      "sha256": "1757950d876e87f1bc3343eb120d407162d605b2a72e6416b906a0888253acd7",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/regime_v2/execution_inputs.py",
+      "sha256": "5e1e60f5b2f16d4c567922d2466c86eba75db5d6dcdd90e84df8bf93164334a0",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/regime_v2/figures.py",
+      "sha256": "14b2421cadaf1183542a15db97392d0939bd2a99898a62ab6e31009484bd57b6",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/regime_v2/frontier.py",
+      "sha256": "a8b9474574a52725c2a7ff5a6dadc9e0cbf78d67aa5cf1e29e7f7e35180fd400",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/regime_v2/headroom_a.py",
+      "sha256": "67892d6ad449ce534eca9b3710e7e7fd5ca4563759e6784b362490c89e850975",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/regime_v2/hedge.py",
+      "sha256": "3e07abfa4366cbfa452e59d33d2c40bfd0d0f6147a93a5f5f7fd3833f8a492d1",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/regime_v2/inputs.py",
+      "sha256": "5f030edde5bb8aeb61123727eed4dfd2c45478b56891b3689a1b8dc64d4595d6",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/regime_v2/lk.py",
+      "sha256": "dd022669b9cf8395234530bf384f04306b8334e884b9d90e41ca385eb87c32ca",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/regime_v2/policy.py",
+      "sha256": "c7224c0534a77e5378db28a803dca5e5338abc41a335fafa83fc465afaa04014",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/regime_v2/reference.py",
+      "sha256": "392f8276d9ae29857d5fbcb0f9945126716cbae2db4c917b6559596b74f0aae6",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/regime_v2/replay.py",
+      "sha256": "94bc3bd9daa14d2aa53266a2bf92b32fb50f76b589a9e52ee66d6ef6680e3357",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/regime_v2/reporting.py",
+      "sha256": "8e38f75220f9315f62fd9f9e1e02da74186971aedac4d251b1a61a70ff6dd433",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/regime_v2/returns.py",
+      "sha256": "52b2145eba2cbe8b2ddc915e75a5447f78b918aa7f9e8378336b7e05802bfbae",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/regime_v2/review_context.py",
+      "sha256": "61af9590270f6e07fe1735df573b42951d12fbdcb266d9dde50de9332576e3eb",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/regime_v2/risk.py",
+      "sha256": "d9c3167fcf8760176cdb35218d0b99f0d33ca7281fc222b202be1fa2bc9a4d63",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/regime_v2/session_calendar.py",
+      "sha256": "9a8a21d033e228453af2921de68a3f404cff461a79a425c21cd7160acd9c1d58",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/regime_v2/stages.py",
+      "sha256": "86a467cf212cd62bb481255592471910876fc213c4e4ecdc52dab05e0882403a",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/regime_v2/states.py",
+      "sha256": "0dc5fb8621cae5b5fc125fa9ab927bf8f19d0cd1dec3e492f5ddf4775cb49680",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/regime_v2/tasks.py",
+      "sha256": "888db3c3ede3ca515f4c7102e03c212ce4953c208805f0ecd102fa3b4b6e82f4",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/regime_v2/terms.py",
+      "sha256": "e3417620a03038a1b5d63701f25857b1cb29fb47235103843a8610f807063031",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/reporting/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/reporting/basis_audit.py",
+      "sha256": "3684c085abfe4aa61e4eb920b3a6003f5d3900e32d12917dedd89402bbb3f284",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/reporting/docs.py",
+      "sha256": "ca364da85888da87c865bb3980a68dded0de0dbff59bc1ae3ef83561efcb2407",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/reporting/dossier.py",
+      "sha256": "eb1dceaaae3f8a0d9efcdd34e01925b3412ee5b24dea6841064ce775692b0721",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/reporting/figures2.py",
+      "sha256": "c80a419cca753b436be8702303c4ff7e7d53250dacf96d30f88be01eef196f2d",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/reporting/findings.py",
+      "sha256": "d834de72fea4cf968cdbcaf9a242e2d87f6f4462d45f4505f8d2d70eed6a4b98",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/reporting/repair_report.py",
+      "sha256": "778fe0ca735b07119e05076aa61fce6a30550327a4dad11350aadd09a28835d3",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/reporting/report.py",
+      "sha256": "f2c79b4680ca6f0a93fe36ec900472094c65e232206bcf88d4ed866f60a428dd",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/reporting/tables.py",
+      "sha256": "56ae41f8db181a6f41a438dd5bac2cf8fb690716ff1528bfc5071e4a9d79b314",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/risk/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/risk/covariance.py",
+      "sha256": "cec3f9ad9bc96e13d380e9c654844b163a28cfaa9372589e9619d5f7e7952bbf",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/risk/metrics.py",
+      "sha256": "c5f9cc0e939a2ef93bba9622392d80c75c447e2ff8ebfd010a46969abb4bc88c",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/scenarios/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/scenarios/bootstrap.py",
+      "sha256": "15bca091d5efeb10d15aa2fbbe2f645a08cbe7d53c4555df20b370d9010e467f",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/scenarios/deterministic.py",
+      "sha256": "92660ec71c2af8c8b87fea608988507c6219c2f70a16b8339d57abc4eb5fcb0d",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/scenarios/forward.py",
+      "sha256": "56ff79596fa8ac7e1a1cdb4c9053e08f3f33dd8919d5bfb8bae68c7a7edf37d6",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/strategies/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/strategies/collateral.py",
+      "sha256": "03fc8b6dd10cb70505ea81bbbfc48f240573430f954ec3bab6d985e1ef933567",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/strategies/futures.py",
+      "sha256": "43655d9fb7898f0558d0de4fa8384305fc48f5b66bc73b813df3c1e5cd60b2ff",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/strategies/ledger.py",
+      "sha256": "fd3995a09b99c32a707af4cc2767c112864791bee492d2bc8ea30f0931e1953a",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/strategies/options.py",
+      "sha256": "ddcba99df2cb4c18a8211b9ec4ea949cb479a57affd818b169425ff5decf8f55",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/strategies/screening.py",
+      "sha256": "144d7886937f61be05a612431902f6b9b66fe7128569f28fbff99d1e17d8782c",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/strategies/state_policy.py",
+      "sha256": "d326581d4a05f9c17b39d65455fa215b27495ca5a224a66a247ebd68ad9f215a",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/v3_btc.py",
+      "sha256": "a6beafb24189e48018cde3bc1242eb891c6d538b5c1e295b7818ce15d20a3dbe",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/v3_final.py",
+      "sha256": "3af231737ffaf5ff212df46879a2100282a6a0a2fbfc76c244a88340d6eaac44",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/v3_policy.py",
+      "sha256": "e9ed79348f0f526838a2da5bf15cb771755af46c52fc14f685aeb810e4ecb2d9",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/v3_stages.py",
+      "sha256": "555e18ae31a9a296e3da604dd2efc3e9c0c48532755176723384fbc0af2015ae",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/validation/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "src/smlt_hedge/validation/checks.py",
+      "sha256": "b00de2898294f53f95d69999338a27e81cbfc9a1478dd8fc5758b46ebfe196bd",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "3a2d041f3bc1b7ead41b37f6d6d06c6d778f36c05231dd04cae300ea4ead6353",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "uv.lock",
+      "sha256": "8f7b15a1b603b1826196072a1dc065a608d58a9d1ee38cc1a6014bc6b858d589",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "tests/test_data.py",
+      "sha256": "0c774e4af5bab98978a85e8c32ae2b8d00e28d5f33a186ee4d9ca1942f2c237c",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "tests/test_options.py",
+      "sha256": "e08be5e5ea7bf29a2bf85296a287d8f7625cb91ffe9a80bb396b0a459de9db79",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "tests/test_risk_and_optimization.py",
+      "sha256": "240f207f58609df0c948ef395a031057a9e1dc0438e981a499fa62fbea0ebf2b",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    },
+    {
+      "path": "tests/test_simulation_and_lookahead.py",
+      "sha256": "49bc908d307e91dcc60582b7fc63b9ae2fc0467700b1eba8c5580d0d51d22db7",
+      "source_commit": "e11952dac3dd0703e63f29d269ad51dee97bdf0c",
+      "transformation": "BYTE_IDENTICAL"
+    }
+  ]
+}
