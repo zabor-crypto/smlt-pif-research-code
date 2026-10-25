@@ -1,0 +1,40 @@
+name: Bounded synthetic checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  synthetic:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
+        with:
+          python-version: '3.12'
+      - name: Install locked dependencies (registry access)
+        run: |
+          python -m pip install uv==0.12.9
+          uv sync --frozen --group dev
+      - name: Verify exported source bytes against the retained manifest
+        run: |
+          python - <<'PY'
+          import hashlib, json
+          from pathlib import Path
+          manifest = json.loads(Path('SOURCE_VERSION.json').read_text())
+          for entry in manifest['exports']:
+              actual = hashlib.sha256(Path(entry['path']).read_bytes()).hexdigest()
+              assert actual == entry['sha256'], entry['path']
+          print(f"Verified {len(manifest['exports'])} exported files against SOURCE_VERSION.json")
+          PY
+      - name: Run only the selected synthetic examples (no market files)
+        env:
+          PYTHONPATH: src
+          PYTEST_DISABLE_PLUGIN_AUTOLOAD: '1'
+        run: uv run --offline --frozen python -m pytest tests/test_data.py tests/test_options.py -q -p no:cacheprovider
